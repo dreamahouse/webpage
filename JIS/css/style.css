@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-header{
+    width: 100%;
+    background-color: rgba(150,159,165,1);
+}
+.menu{
+    float: right;
+    display: inline;
+}
+.menu li{
+    float: left;
+    padding: 1em 0;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+.menu li a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 1em;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.menu li a:hover{
+    color: #1b6d85;
+}
+.menu li a:link{
+    color: #1b6d85;
+}
+.menu li a:active{
+    color: #1b6d85;
+}
+.sign{
+    border-right: 1px solid white;
+}
+.content{
+    height:80%;
+}
+.modal-footer{
+    width: 100%;
+    padding: 2em;
+    background-color:rgba(150,159,165,1);
+}
+.footer-content{
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 10em;
+    width: 80%;
+}
+.fix-right{
+    width: 100%;
+    display: block;
+}
+.fix-left{
+    padding-top: 1em;
+    width: 100%;
+    float: left;
+    display: block;
+    border-top: 1px solid white;
+}
+.fix-right span{
+    margin: 1em;
+    display: inline-block;
+    float: left;
+}
+.footer-nav{
+    float: right;
+    display: inline-block;
+}
+.footer-nav li{
+    float: left;
+    padding:0 0.8em;
+}
+.footer-nav li a:hover{
+    color: #1b6d85;
+}
+.footer-content p{
+    font-size: 1em;
+    color: white;
+    float: left;
+    bottom: 0;
+}
+.footer-content li a{
+
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    font-weight: normal;
+    text-align: right;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.footer-img{
+    float: left;
+}
+.footer-img li{
+    float: left;
+    padding: 0 1em;
+}
+.footer-img li a{
+
+}
